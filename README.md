@@ -1,12 +1,6 @@
-I’ve prepared the documentation and README content in a text file for you. You can download it from the link below:
-
-[Download Documentation and README](https://gist.github.com/anonymous/79fa2b9c027d5a3c72c4ed7c1a5d44e6)
-
-Here's the content for your reference:
 
 ### `README.md`
 
-```markdown
 # Django Todo Application
 
 ## Project Description
@@ -135,8 +129,6 @@ CMD ["gunicorn", "--bind", "0.0.0.0:8000", "todo_project.wsgi:application"]
 
 1. **Open AWS Lambda Console**: [AWS Lambda Console](https://console.aws.amazon.com/lambda/).
 2. **Create a New Function**: Choose **"Container image"**, provide a name, and use the image URI from ECR.
-
-### Configure API Gateway
 
 1. **Open Amazon API Gateway Console**: [API Gateway Console](https://console.aws.amazon.com/apigateway/).
 2. **Create a New API**: Choose **"HTTP API"** and configure routes to integrate with your Lambda function.
